@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+#Main {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.One {
+    border: 3px solid white;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 23%;
+    height: 260px;
+}
+
+div>img {
+    object-fit: contain;
+    width: 100%;
+}
+
+#Nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    flex-wrap: wrap;
+
+}
+
+#Nav>div {
+    padding: 7px;
+}
+
+#Img1 {
+    height: 310px;
+    object-fit: fill;
+}
+
+h3 {
+    padding: 5px;
+}
+
+p {
+    padding: 5px;
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .One {
+        border: 3px solid white;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        width: 90%;
+        height: 300px;
+
+    }
+
+    #Nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 20px;
+    position: static;
+    }
+}
+
+@media screen and (max-width: 750px) and (min-width:481px) {
+    .one {
+        border: 3px solid white;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        width: 50%;
+        height: 300px;
+    }
+
+     
+}
